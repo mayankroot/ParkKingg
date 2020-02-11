@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cs207.ParkKing.Park">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quantum_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Detail2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Theatre"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Confirmation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".UserInformation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DialogBox"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MovieConfirmation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SeatSelection"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ComingSoon"
+            android:screenOrientation="portrait">
+            </activity>
+            <activity android:name=".Login"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".UserReview"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

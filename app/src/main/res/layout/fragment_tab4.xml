@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cs207.ParkKing.Park.Tab4"
+    android:background="@color/colorPrimaryDark"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/avenger"
+        android:id="@+id/imageView30"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toStartOf="@+id/imageButton30"
+        android:text="Electronic city parking"
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <ImageButton
+        app:srcCompat="?attr/actionModeShareDrawable"
+        android:id="@+id/imageButton30"
+        android:background="?android:attr/colorPressedHighlight"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/textView31"
+        android:layout_toEndOf="@+id/textView30"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="373dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="fill"
+        android:text="Electronic City is an information technology hub in Bangalore, India, located in Anekal taluk. It is one of India's largest electronic/IT industrial parks, spread over 800 acres in Konappana Agrahara and Doddathogur villages in Bangalore. "
+        android:textColor="?android:attr/colorPressedHighlight" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView30"
+        android:layout_alignStart="@+id/textView32"
+        android:layout_alignEnd="@+id/imageView30"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="bottom|left|center_vertical"
+        android:text="ELECTRONIC CITY"
+        android:textColor="?android:attr/colorPressedHighlight"
+        android:textSize="18sp" />
+
+</RelativeLayout>

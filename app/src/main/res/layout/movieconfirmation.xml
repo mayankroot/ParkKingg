@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFB6C1"
+    >
+
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="40dp"
+        android:text="Order Summary"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="?android:attr/colorPressedHighlight"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView4" />
+
+
+    <TextView
+        android:id="@+id/MovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView15"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="302dp"
+        android:gravity="center"
+        android:hint="MovieName"
+        android:textColor="#FFB6C1"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/MovieName" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="617dp"
+        android:text="Booking Id:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/bookingid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#1130f0"
+        android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seats:"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/bookingid"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/seats"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bookingid"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="-252dp"
+        android:layout_toStartOf="@+id/textView15"
+        android:textColor="#1130f0"
+        android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date and Time:"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp" />
+
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#1130f0"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:text="Area/Slots:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/theatrescreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignEnd="@+id/datetime"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#1130f0"
+        android:textSize="20sp" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount:"
+            android:id="@+id/textView7"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@+id/theatrescreen"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/totalamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theatrescreen"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#1130f0"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Home"
+        android:background="@color/colorPrimary"
+        android:id="@+id/home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+
+</RelativeLayout>

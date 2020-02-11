@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/fr1"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="MAJESTIC" />
+
+    <item
+        android:id="@+id/fr2"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="MALLESHWARAM" />
+
+    <item
+        android:id="@+id/fr3"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="ELECTRONIC CITY" />
+
+    <item
+        android:id="@+id/fr4"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="YASHWANTPUR" />
+
+    <item
+        android:id="@+id/comingsoon"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="COMING SOON" />
+    <item
+        android:id="@+id/Login"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Sign In" />
+    <item
+        android:id="@+id/review"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Parking Reviews" />
+
+    <item
+        android:id="@+id/close"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Exit" />
+</menu>

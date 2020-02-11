@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_height="50dp"
+        android:textStyle="bold|italic"
+        android:textColor="#FFB6C1"
+        android:textSize="20dp"
+        android:fontFamily="Arial"
+        />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+    <RatingBar
+        android:id="@+id/textrate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/textname"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="10dp"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:stepSize="0.1"
+        android:theme="@style/RatingBar"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_marginLeft="260dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:fontFamily="Arial"
+        />
+
+
+
+
+</RelativeLayout>

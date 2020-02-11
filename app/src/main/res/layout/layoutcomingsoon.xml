@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB6C1">
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/imgcmgsoon"/>
+
+
+    <TextView
+        android:id="@+id/txtmovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgcmgsoon"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/txtdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmovie"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:gravity="center_horizontal"
+        android:linksClickable="true"
+        android:textColor="#000000"
+        android:textColorLink="#1130f0"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/txtcomingsoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:gravity="center_horizontal"
+        android:text="Coming Soon"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

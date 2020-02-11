@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "119899019359",
+    "project_id": "firebase-quantumc"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119899019359:android:4daa53bca87c5197",
+        "android_client_info": {
+          "package_name": "com.cs442.dsuraj.quantumc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119899019359-ovjfqu1ck48uueu151vgp9fqc7ug3s3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cs442.dsuraj.quantumc",
+            "certificate_hash": "E03DD7F80FB78717F56BA62700C97A8D8A9140AB"
+          }
+        },
+        {
+          "client_id": "119899019359-9k49309s2lg0f7fbp3ftb6h2ka0rg6oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqOpNnEnuCKzj_YG_UteqmS6_fAYv6xNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

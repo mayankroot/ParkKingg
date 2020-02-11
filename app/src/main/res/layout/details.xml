@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB6C1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFB6C1"
+        android:layout_marginTop="15sp"
+        android:background="#FFB6C1"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_alignEnd="@+id/date"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_toEndOf="@+id/textView27"
+        android:gravity="left|center"
+        android:text="New Text"
+        android:textColor="#1130f0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:id="@+id/pay"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="33dp"
+        android:layout_toStartOf="@+id/textView18"
+        android:text="Area"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/noofseats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/theascr"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_alignBottom="@+id/theascr"
+        android:layout_marginRight="35dp"
+        android:gravity="right|center"
+        android:paddingRight="20dp"
+        android:text="Number"
+        android:textColor="#1130f0" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView17"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="35dp"
+        android:gravity="right|center"
+        android:paddingRight="20dp"
+        android:text="Slots"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/theascr"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@+id/noofseats"
+        android:paddingRight="5dp"
+        android:text="Price:"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView19"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_toEndOf="@+id/textView27"
+        android:gravity="left"
+        android:text="New Text"
+        android:textColor="#1130f0" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_marginTop="14dp"
+        android:layout_toStartOf="@+id/time"
+        android:text="Date:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView27"
+        android:gravity="left"
+        android:text="New Text"
+        android:textColor="#1130f0" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="12dp"
+        android:text="Time:"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_marginTop="16dp"
+        android:layout_toStartOf="@+id/emailid"
+        android:text="Email:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView27"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#1130f0" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailid"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textColor="#1130f0" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailid"
+        android:layout_alignStart="@+id/textView27"
+
+        android:layout_alignBottom="@+id/phone"
+        android:layout_toStartOf="@+id/phone"
+        android:text="Phone:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/theascr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_alignEnd="@+id/textView16"
+        android:text="Theatre"
+        android:textColor="#1130f0" />
+
+</RelativeLayout>
